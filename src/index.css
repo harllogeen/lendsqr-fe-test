@@ -1,0 +1,55 @@
+@font-face {
+  font-family: 'Avenir Next';
+  src: url("http://www.yoursite.com/fonts/Avenir_Next.otf"); 
+  }
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #fffeff;
+  color: #143d50;
+  font-weight: 400;
+  font-family: "Avenir Next", sans-serif;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+.App{
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+.App::-webkit-scrollbar{
+  display: none;
+}
+
+:root{
+  --primary: #39CDCC;
+  --title-color: #213F7D;
+  --text-color: #545F7D;
+}
+
+/* img{
+  width: 100%;
+} */
+
+a{
+  text-decoration: none;
+}
+
+a:hover{
+color: inherit;
+cursor: pointer;
+}
+
+a:visited{
+  color: inherit;
+}
+li{
+  list-style-type: none;
+}
