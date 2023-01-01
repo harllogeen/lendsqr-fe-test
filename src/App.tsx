@@ -3,7 +3,7 @@ import Signin from 'Auth/SignInView';
 import DashboardLayout from 'dashboard/DashboardLayout';
 import Dashboard from 'dashboard/DashboardView';
 import UserDetails from 'users/details/UserDetailsView';
-import NotFound from 'components/Shared/NotFound';
+import NotFound from 'components/NotFound';
 
 function App() {
   return (

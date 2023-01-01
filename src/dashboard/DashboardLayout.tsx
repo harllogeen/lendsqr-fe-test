@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { Grid } from "@mui/material";
 import { Outlet } from "react-router-dom";
-import NavBar from "components/Shared/Navbar";
-import SideBar from "components/Shared/Sidebar";
+import NavBar from "components/Navbar";
+import SideBar from "components/Sidebar";
 
 const DashboardLayout = () => {
   const [showSideBar, setShowSideBar] = useState(false);

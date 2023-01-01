@@ -20,7 +20,7 @@ const NavbarWrapper = styled(Box)`
 `;
 
 const Logo = styled(Box)`
-  width: 135px;
+  width: 130px;
   margin-left: 30px;
 
   img {
